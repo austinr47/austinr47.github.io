@@ -8,18 +8,18 @@ class App extends Component {
       <div className="home-main">
         <div id="about" className='home-left'>
           <section className='about' ref={(section) => { this.About = section; }}>
-          <div className="home-header">
-            <img alt='header' src='http://maxpixel.freegreatpicture.com/static/photo/2x/Startup-Creative-Computer-Notebooks-Start-up-593327.jpg'/>
-          </div>
-          <div className="home-about">
-            <div className='home-about-title'>
-            About Austin
+            <div className="home-header">
+                <img alt='header' src='http://maxpixel.freegreatpicture.com/static/photo/2x/Startup-Creative-Computer-Notebooks-Start-up-593327.jpg'/>
             </div>
-            <p className='home-about-content'>
-            I am a determined and hard-working developer who loves coding because the learning never ends. I approach my work with a visceral desire and unwavering determination to help my team succeed. By doing so, I find great satisfaction in the process of failing forward together.
-            </p>
-          </div>
-            </section>
+            <div className="home-about">
+                <div className='home-about-title'>
+                About Austin
+                </div>
+                <p className='home-about-content'>
+                I am a determined and hard-working developer who loves coding because the learning never ends. I approach my work with a visceral desire and unwavering determination to help my team succeed. By doing so, I find great satisfaction in the process of failing forward together.
+                </p>
+            </div>
+          </section>
           <div id="skills" className="home-skills">
             <section className='about' ref={(section) => { this.Skills = section; }}>
                 <div className='home-skills-title'>Skills

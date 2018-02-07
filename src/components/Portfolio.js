@@ -135,7 +135,7 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <Link to="/react-minis" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/main-personal-project/master/src/assets/account.png' alt='example'/></Link>
+                                    <Link to="/react-minis" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/portfolio/master/src/2018-02-07-16-06-localhost_3000.png' alt='example'/></Link>
                                     </div>
                                     <div className='home-projects-description'>
                                     <div className='home-projects-description-title'>React Mini Projects</div>

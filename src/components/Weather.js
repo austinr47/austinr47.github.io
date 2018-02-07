@@ -16,7 +16,6 @@ export default class Weather extends Component {
     }
     
     getWeather() {
-        console.log(process.env)
         axios.get(`http://api.apixu.com/v1/forecast.json?key=${process.env.REACT_APP_API_TOKEN}&q=85296&days=5`).then(response => {
             let days = response.data.forecast.forecastday
             // console.log(response)

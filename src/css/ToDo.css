@@ -1,0 +1,90 @@
+.todo-main {
+    text-align: center;
+    width: 370px;
+    height: 465px;
+    /* border: 1px solid rgba(211, 211, 211, 0.959); */
+    box-shadow: 5px 5px 20px rgba(177, 176, 176, 0.918);
+    padding-top: 20px;
+    overflow: auto;
+}
+
+.todo-input-1 {
+    border: 0px;
+    font-size: 20px;
+}
+
+.todo-list-3 {
+    margin-top: 30px;
+}
+
+.todo-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    /* border: .4px solid rgba(0, 0, 0, 0.247); */
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(177, 176, 176, 0.651);
+}
+
+.todo-title {
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.todo-add-button {
+    cursor: pointer;
+    border-radius: 3px;
+    font-style: italic;
+    margin-left: 25px;
+}
+
+.todo-add-button:disabled {
+    opacity: .4;
+}
+
+.todo-add-button:hover {
+    background-color: rgba(128, 128, 128, 0.199);
+    border-radius: 3px;
+}
+
+.todo-button {
+    /* background-color: green; */
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    max-height: 17px;
+}
+
+.todo-button-completed {
+    background-color: rgba(0, 128, 0, 0.507);
+}
+
+.todo-delete-button {
+    color: rgba(209, 38, 38, 0.911);
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.todo-task {
+    flex: 3;
+    text-align: start;
+}
+
+.todo-input {
+    /* margin-bottom: 45px; */
+    height: 18px;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 20px 0px 20px;
+    box-shadow: 5px 5px 20px rgba(177, 176, 176, 0.651);
+    display: flex;
+    justify-content: center;
+}
+
+.todo-task-completed {
+    background-color: rgba(211, 211, 211, 0.342);
+    color: rgba(128, 128, 128, 0.363);
+    /* text-decoration: line-through  */
+}

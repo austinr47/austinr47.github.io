@@ -4,7 +4,7 @@
     align-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 404px;
     font-size: 35px;
   }
   
@@ -12,9 +12,11 @@
     padding: 39px 5px;
     background-color: gray;
     border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(177, 176, 176, 0.918);
   }
   
   .calc-display {
+    box-shadow: 5px 5px 20px rgba(177, 176, 176, 0.918);
     border: .5px solid black;
     height: 98px;
     background-color: rgb(46, 46, 46);

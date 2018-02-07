@@ -1,0 +1,128 @@
+.weather-main{
+    text-align: center;
+    width: 370px;
+    height: 445px;
+    box-shadow: 5px 5px 20px rgba(177, 176, 176, 0.918);
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    padding: 20px 10px;
+}
+
+.weather-input {
+    font-size: 25px;
+    border: 0;
+    border-radius: 8px;
+    width: 160px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+
+.weather-button {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.weather-button:hover {
+    background-color: lightgray;
+}
+
+.weather-forecast {
+    border: 1px solid rgba(8, 8, 8, 0.801);
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+    margin: 15px 1px 10px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.weather-forecast:hover {
+    background-color: rgba(0, 128, 0, 0.452);
+}
+
+.weather-forecast-date {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.weather-forecast-main {
+    margin-bottom: 20px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.weather-forecast-temp-min {
+    font-size: 10px;
+}
+
+.weather-forecast-temp-max {
+    font-size: 10px;
+}
+
+.weather-seven-days {
+    display: flex;
+    /* margin: 2px; */
+}
+
+.weather-day-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+}
+
+.weather-day-time{
+    font-size: 30px;
+    margin: 10px 0 8px 0;
+}
+
+.weather-day-content{
+    display: flex;
+    padding: 1px;
+
+}
+
+.weather-day-icon{
+    height: 90px;
+}
+
+.weather-day-text{
+    font-size: 20px;
+}
+
+.weather-day-temp{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.weather-day-humid{
+    font-size: 11px;
+    text-align: left;
+}
+
+.weather-day-feelslike{
+    font-size: 11px;
+    text-align: left;
+}
+
+.weather-day-rain{
+    font-size: 11px;
+    text-align: left;
+}
+
+.weather-day-right {
+
+}

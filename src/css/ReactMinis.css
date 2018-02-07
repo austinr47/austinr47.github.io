@@ -1,0 +1,39 @@
+.reactmini-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.reactmini-main-1 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex: 2;
+}
+
+.reactmini-back {
+    /* text-align: center; */
+    margin-top: 25px;
+    margin-left: 35px;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: black;
+}
+
+.react-mini-calc {
+    height: 404
+}
+
+.react-mini-calc {
+    height: 404
+}
+
+.react-mini-calc {
+    height: 404
+}

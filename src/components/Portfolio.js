@@ -69,7 +69,7 @@ class App extends Component {
                             </div>
                             <Waypoint onEnter={() => {this.showSection('about')}} onLeave={() => {this.hideSection('about')}}/>
                             <p className='home-about-content'>
-                            I am a determined and hard-working developer who loves coding because the learning never ends. I approach my work with a visceral desire and unwavering determination to help my team succeed. By doing so, I find great satisfaction in the process of failing forward together.
+                            I am an Web Developer with full-stack JavaScript experience specializing in the React framework in association with Node, PostgreSQL and HTML/CSS. I am a determined and hard-working developer with a passion fo learning and improving my code. I approach my work with a visceral desire and unwavering determination to help my team succeed.
                             </p>
                         </div>
                 </section>
@@ -82,18 +82,18 @@ class App extends Component {
                         </p>
                         <div className='home-skills-list'>
                             <div>
-                                <ul>React | Redux</ul>
-                                <ul>JavaScript (ES6)</ul>
-                                <ul>NodeJS</ul>
-                                <ul>Express</ul>
-                                <ul>PostgreSQL</ul>
+                                <ul><i className="devicon-react-original"></i>React | Redux</ul>
+                                <ul><i className="devicon-javascript-plain colored"></i>JavaScript (ES6)</ul>
+                                <ul><i className="devicon-nodejs-plain colored"></i>NodeJS</ul>
+                                <ul><i className="devicon-express-original colored"></i>Express</ul>
                             </div>
                             <div>
-                                <ul>RESTful APIs</ul>
-                                <ul>HTML5 / CSS</ul>
-                                <ul>NPM</ul>
-                                <ul>Massive</ul>
-                                <ul>Git | GitHub</ul>
+                                {/* <ul>RESTful APIs</ul> */}
+                                <ul><i className="devicon-postgresql-plain colored"></i>PostgreSQL</ul>
+                                <ul><i className="devicon-html5-plain colored"></i>HTML5 / CSS</ul>
+                                <ul><i className="fa fa-cogs fa-2x" aria-hidden="true"></i>NPM</ul>
+                                {/* <ul>Massive</ul> */}
+                                <ul><i className="devicon-github-plain colored"></i>Git | GitHub</ul>
                             </div>
                         </div>
                         <Waypoint onEnter={() => {this.showSection('skills')}} onLeave={() => {this.hideSection('a')}}/>
@@ -122,11 +122,11 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <img className='home-projects-picture' src='https://raw.githubusercontent.com/austinr47/main-personal-project/master/src/assets/account.png' alt='example'/>
+                                    <img className='home-projects-picture' src='https://di-uploads-pod1.s3.amazonaws.com/earlstewarttoyota/uploads/2017/01/1-16-17_image_coming_soon.jpg' alt='example'/>
                                     </div>
                                     <div className='home-projects-description'>
-                                    <div className='home-projects-description-title'>Group Project</div>
-                                    <div className='home-projects-description-awarded'>★</div>
+                                    <div className='home-projects-description-title'>Group Project Coming Soon</div>
+                                    <div className='home-projects-description-awarded'>{/*★*/}</div>
                                     <div className='home-projects-description-from'>(DevMountain - Feburary 2018)</div>
                                     <div className='home-projects-description-text'>Detailed project description will go here</div>
                                     </div>
@@ -135,7 +135,7 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <Link to="/react-minis" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/portfolio/master/src/2018-02-07-16-06-localhost_3000.png' alt='example'/></Link>
+                                    <Link to="/react-minis" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/portfolio/master/src/react-minis.png' alt='example'/></Link>
                                     </div>
                                     <div className='home-projects-description'>
                                     <div className='home-projects-description-title'>React Mini Projects</div>
@@ -165,7 +165,6 @@ class App extends Component {
             <a onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 750})} className={this.state.about ? 'menu-about showSection' : 'menu-about'}>About</a>
             <a onClick={() => scrollToComponent(this.Skills, { offset: 0, align: 'top', duration: 750})} className={this.state.skills ? 'menu-about showSection' : 'menu-about'}>Skills</a>
             <a onClick={() => scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 750})} className={this.state.projects ? 'menu-about showSection' : 'menu-about'}>Projects</a>
-            <a onClick={() => scrollToComponent(this.Contact, { offset: 0, align: 'top', duration: 750})} className={this.state.contact ? 'menu-about showSection' : 'menu-about'}>Contact</a>
           </div>
         </div>
       </div>

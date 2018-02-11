@@ -122,7 +122,7 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <img className='home-projects-picture' src='https://di-uploads-pod1.s3.amazonaws.com/earlstewarttoyota/uploads/2017/01/1-16-17_image_coming_soon.jpg' alt='example'/>
+                                    <img className='home-projects-picture-3' src='https://di-uploads-pod1.s3.amazonaws.com/earlstewarttoyota/uploads/2017/01/1-16-17_image_coming_soon.jpg' alt='example'/>
                                     </div>
                                     <div className='home-projects-description'>
                                     <div className='home-projects-description-title'>Group Project Coming Soon</div>
@@ -157,7 +157,7 @@ class App extends Component {
         </div>
         <div className='home-right'>
           <div className='menu-picture-1'>
-            <img src="/src/portfolio image1.png" alt="Austin" className='menu-picture'/>
+            <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio%20image1.png?raw=true" alt="Austin" className='menu-picture'/>
           </div>
           <div className='menu-name'>Austin Randall</div>
           <div className='menu-title'>Web Developer</div>

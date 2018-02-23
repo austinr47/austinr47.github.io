@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import '../css/Weather.css';
-require('dotenv').config();
+// require('dotenv').config();
 
 export default class Weather extends Component {
     constructor() {
@@ -16,7 +16,7 @@ export default class Weather extends Component {
     }
     
     getWeather() {
-        axios.get(`http://api.apixu.com/v1/forecast.json?key=${process.env.REACT_APP_API_TOKEN}&q=85296&days=5`).then(response => {
+        axios.get(`http://api.apixu.com/v1/forecast.json?key=82a5a151c8ff4fcfac710630180702&q=85296&days=5`).then(response => {
             let days = response.data.forecast.forecastday
             // console.log(response)
             var fiveDays = days.map((item, index) => {
@@ -71,7 +71,7 @@ export default class Weather extends Component {
     }
 
     getDay(value) {
-        axios.get(`http://api.apixu.com/v1/history.json?key=${process.env.REACT_APP_API_TOKEN}&q=85296&dt=${value}`).then(response => {
+        axios.get(`http://api.apixu.com/v1/history.json?key=82a5a151c8ff4fcfac710630180702&q=85296&dt=${value}`).then(response => {
             var data = response.data.forecast.forecastday[0].hour
             var hours = data.map((item, index) => {
                 function date() {

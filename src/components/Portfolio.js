@@ -157,7 +157,7 @@ class App extends Component {
         </div>
         <div className='home-right'>
           <div className='menu-picture-1'>
-            <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio%20image1.png?raw=true" alt="Austin" className='menu-picture'/>
+            <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio-image3.jpg?raw=true" alt="Austin" className='menu-picture'/>
           </div>
           <div className='menu-name'>Austin Randall</div>
           <div className='menu-title'>Web Developer</div>

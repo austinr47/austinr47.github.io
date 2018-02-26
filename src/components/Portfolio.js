@@ -182,8 +182,9 @@ class App extends Component {
             <a onClick={() => scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 750})} className={this.state.projects ? 'menu-about showSection' : 'menu-about'}>Projects</a>
           </div>
           <div className='social-icons'>
-            <a><i className='fab fa-github fa-2x'></i></a>
-            <a><i className="fab fa-facebook fa-2x"></i></a>
+            <a href='https://github.com/austinr47'><i className='fab fa-github fa-2x'></i></a>
+            <a href='https://www.linkedin.com/in/austin-randall/'><i className="fab fa-linkedin fa-2x"></i></a>
+            <a href='https://www.facebook.com/austinallie.randall'><i className="fab fa-facebook fa-2x"></i></a>
           </div>
         </div>
       </div>

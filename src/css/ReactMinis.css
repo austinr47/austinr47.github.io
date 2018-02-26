@@ -7,7 +7,7 @@
 
 .reactmini-main-1 {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     align-content: center;
@@ -17,8 +17,8 @@
 
 .reactmini-back {
     /* text-align: center; */
-    margin-top: 25px;
-    margin-left: 35px;
+    /* margin-top: 25px;
+    margin-left: 35px; */
     font-size: 30px;
     cursor: pointer;
     text-decoration-line: none;
@@ -27,13 +27,33 @@
 }
 
 .react-mini-calc {
-    height: 404
+    height: 404;
+    margin: 80px 0px;
 }
 
-.react-mini-calc {
-    height: 404
+.react-mini-todo {
+    height: 404;
+    margin: 80px 0px;
 }
 
-.react-mini-calc {
-    height: 404
+.react-mini-weather {
+    height: 404;
+    margin: 80px 0px 140px;
+}
+
+@media(min-width: 1100px) {
+  .reactmini-back {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 35px;
+  }
+
+  .reactmini-main-1 {
+    flex-direction: row;
+  }
+
+  .react-mini-weather {
+    height: 404;
+    margin: 80px 0px 80px;
+  }
 }

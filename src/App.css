@@ -853,9 +853,9 @@ ul i {
   }
 
   .home-header > img{
-    width: 1500px;
+    width: 1700px;
     position: absolute;
     z-index: -100;
-    top: -300px;
+    top: -360px;
   }
 }

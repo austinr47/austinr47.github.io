@@ -59,10 +59,18 @@ class App extends Component {
     return (
       <div className="home-main">
         <div id="about" className='home-left'>
+          <div className='header'>
+            <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio%20image1.png?raw=true" alt="Austin" className='header-picture'/>
+            <section>
+              <section className='header-name-1'>Austin Randall</section>
+              <section className='header-name-2'>Web Developer</section>
+            </section>
+          </div>
                 <section className='about' ref={(section) => { this.About = section; }}>
                         <div className="home-header">
                             <img alt='header' src='http://maxpixel.freegreatpicture.com/static/photo/2x/Startup-Creative-Computer-Notebooks-Start-up-593327.jpg'/>
                         </div>
+                      <div className='div-later'>
                         <div className="home-about">
                             <div className='home-about-title'>
                             About Austin
@@ -72,7 +80,9 @@ class App extends Component {
                             I am an Web Developer with full-stack JavaScript experience specializing in the React framework in association with Node, PostgreSQL and HTML/CSS. I am a determined and hard-working developer with a passion fo learning and improving my code. I approach my work with a visceral desire and unwavering determination to help my team succeed.
                             </p>
                         </div>
+                      </div>
                 </section>
+                <div className='div-later'>
             <div id="skills" className="home-skills">
                     <section className='about' ref={(section) => { this.Skills = section; }}>
                         <div className='home-skills-title'>Skills
@@ -99,6 +109,8 @@ class App extends Component {
                         <Waypoint onEnter={() => {this.showSection('skills')}} onLeave={() => {this.hideSection('a')}}/>
                     </section>
             </div>
+            </div>
+            <div className='div-later'>
             <div id="projects" className="home-projects">
                     <section className='about' ref={(section) => { this.Projects = section; }}>
                         <div className='home-projects-title'>
@@ -152,6 +164,7 @@ class App extends Component {
                         </div>
                     </section>
             </div>
+            </div>
         </div>
         <div className='home-right-1'>
         </div>
@@ -159,12 +172,18 @@ class App extends Component {
           <div className='menu-picture-1'>
             <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio%20image1.png?raw=true" alt="Austin" className='menu-picture'/>
           </div>
-          <div className='menu-name'>Austin Randall</div>
-          <div className='menu-title'>Web Developer</div>
+          <div>
+            <div className='menu-name'>Austin Randall</div>
+            <div className='menu-title'>Web Developer</div>
+          </div>
           <div className='menu-sections'>
             <a onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 750})} className={this.state.about ? 'menu-about showSection' : 'menu-about'}>About</a>
             <a onClick={() => scrollToComponent(this.Skills, { offset: 0, align: 'top', duration: 750})} className={this.state.skills ? 'menu-about showSection' : 'menu-about'}>Skills</a>
             <a onClick={() => scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 750})} className={this.state.projects ? 'menu-about showSection' : 'menu-about'}>Projects</a>
+          </div>
+          <div className='social-icons'>
+            <a><i className='fab fa-github fa-2x'></i></a>
+            <a><i className="fab fa-facebook fa-2x"></i></a>
           </div>
         </div>
       </div>

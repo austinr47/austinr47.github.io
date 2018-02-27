@@ -134,13 +134,13 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <img className='home-projects-picture-3' src='https://di-uploads-pod1.s3.amazonaws.com/earlstewarttoyota/uploads/2017/01/1-16-17_image_coming_soon.jpg' alt='example'/>
+                                    <img className='home-projects-picture-3' src='https://github.com/austinr47/austinr47.github.io/blob/master/src/Screen%20Shot%202018-02-27%20at%2012.27.04%20PM.png?raw=true' alt='example'/>
                                     </div>
                                     <div className='home-projects-description'>
-                                    <div className='home-projects-description-title'>Group Project Coming Soon</div>
+                                    <div className='home-projects-description-title'>InvitationHomes Demo Site</div>
                                     <div className='home-projects-description-awarded'>{/*★*/}</div>
                                     <div className='home-projects-description-from'>(DevMountain - Feburary 2018)</div>
-                                    <div className='home-projects-description-text'>Detailed project description will go here</div>
+                                    <div className='home-projects-description-text'>This was a group project to demonstrate teamwork and collaboration. We planned using Adobe XD and Trello. This project was created built in two weeks using React, JavaScript, CSS, NodeJS, PostgreSQL, TransitionCss, Digital Ocean for hosting, Auth0 and more.</div>
                                     </div>
                                 </div>
                             </div>

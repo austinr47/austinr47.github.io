@@ -3,6 +3,9 @@ import '../App.css';
 import scrollToComponent from 'react-scroll-to-component';
 import Waypoint from 'react-waypoint';
 import { Link } from 'react-router-dom';
+import pict from '../portfolio image.jpg'
+import pict2 from '../2018-02-07-16-06-localhost_3000.png'
+import waypoint from '../Screen Shot 2018-02-27 at 12.27.04 PM.png'
 
 class App extends Component {
     constructor() {
@@ -60,7 +63,7 @@ class App extends Component {
       <div className="home-main">
         <div id="about" className='home-left'>
           <div className='header'>
-            <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio%20image1.png?raw=true" alt="Austin" className='header-picture'/>
+            <img src={pict} alt="Austin" className='header-picture'/>
             <section>
               <section className='header-name-1'>Austin Randall</section>
               <section className='header-name-2'>Web Developer</section>
@@ -134,7 +137,7 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <img className='home-projects-picture-3' src='https://github.com/austinr47/austinr47.github.io/blob/master/src/Screen%20Shot%202018-02-27%20at%2012.27.04%20PM.png?raw=true' alt='example'/>
+                                    <img className='home-projects-picture-3' src={waypoint} alt='example'/>
                                     </div>
                                     <div className='home-projects-description'>
                                     <div className='home-projects-description-title'>InvitationHomes Demo Site</div>
@@ -147,7 +150,7 @@ class App extends Component {
                             <div className='home-projects-content'>
                                 <div className='home-projects-content-1'>
                                     <div className='home-projects-picture'>
-                                    <Link to="/react-minis" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/portfolio/master/src/react-minis.png' alt='example'/></Link>
+                                    <Link to="/react-minis" className='home-projects-picture'><img src={pict2} alt='example'/></Link>
                                     </div>
                                     <div className='home-projects-description'>
                                     <div className='home-projects-description-title'>React Mini Projects</div>
@@ -170,7 +173,7 @@ class App extends Component {
         </div>
         <div className='home-right'>
           <div className='menu-picture-1'>
-            <img src="https://github.com/austinr47/portfolio/blob/master/src/portfolio%20image1.png?raw=true" alt="Austin" className='menu-picture'/>
+            <img src={pict} alt="Austin" className='menu-picture'/>
           </div>
           <div>
             <div className='menu-name'>Austin Randall</div>

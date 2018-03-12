@@ -316,20 +316,21 @@ ul i {
   }
 
   .menu-picture {
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
+    /* height: 300px; */
+    /* border-radius: 50%; */
+    height: 100%;
   }
-
+  
   .home-projects-picture-3 {
     height: 167px;
   }
-
+  
   .menu-picture-1 {
+    /* height: 100%; */
+    /* transform: scale(.7, .7);
+    border-radius: 50%;
     display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 40px;
+    justify-content: center; */
   }
 
   .menu-name {
@@ -605,9 +606,8 @@ ul i {
   }
 
   .menu-picture {
+    height: 300px;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
   }
 
   .home-projects-picture-3 {
@@ -615,10 +615,10 @@ ul i {
   }
 
   .menu-picture-1 {
+    transform: scale(.7, .7);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 0px;
   }
 
   .menu-name {

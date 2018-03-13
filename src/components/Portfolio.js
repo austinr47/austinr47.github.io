@@ -5,6 +5,7 @@ import Waypoint from 'react-waypoint';
 import { Link } from 'react-router-dom';
 import pict from '../portfolio image.jpg'
 import pict2 from '../2018-02-07-16-06-localhost_3000.png'
+import pict3 from '../Startup-Creative-Computer-Notebooks-Start-up-593327.jpg'
 import waypoint from '../Screen Shot 2018-02-27 at 12.27.04 PM.png'
 
 class App extends Component {
@@ -71,7 +72,7 @@ class App extends Component {
           </div>
                 <section className='about' ref={(section) => { this.About = section; }}>
                         <div className="home-header">
-                            <img alt='header' src='http://maxpixel.freegreatpicture.com/static/photo/2x/Startup-Creative-Computer-Notebooks-Start-up-593327.jpg'/>
+                            <img alt='header' src={pict3}/>
                         </div>
                       <div className='div-later'>
                         <div className="home-about">

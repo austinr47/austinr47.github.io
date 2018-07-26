@@ -7,6 +7,7 @@ import pict from '../portfolio image.jpg'
 import pict2 from '../2018-02-07-16-06-localhost_3000.png'
 import pict3 from '../Startup-Creative-Computer-Notebooks-Start-up-593327.jpg'
 import waypoint from '../Screen Shot 2018-02-27 at 12.27.04 PM.png'
+import ClassyClosets from '../Classy CLosets .png'
 
 class App extends Component {
     constructor() {
@@ -121,46 +122,59 @@ class App extends Component {
                         Projects
                         </div>
                         <div className="home-projects-content-main">
-                            <div className='home-projects-content'>
-                                <div className='home-projects-content-1'>
-                                    <div className='home-projects-picture'>
-                                    <a href='http://myflash-study.com/#/' rel="noopener noreferrer" target="_blank" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/main-personal-project/master/src/assets/account.png' alt='example'/></a>
-                                    </div>
-                                    <div className='home-projects-description'>
-                                    <div className='home-projects-description-title'>FlashStudy Web Application</div>
-                                    <div className='home-projects-description-awarded'>★ Awarded: "Best solution for a business" Personal Project</div>
-                                    <div className='home-projects-description-from'>(DevMountain - January 2018)</div>
-                                    <div className='home-projects-description-text'>Function, full-stack, responsive website built in two weeks using React with Redux, JavaScript, CSS, NodeJS, PostgreSQL, ChartJS, Digital Ocean for hosting, and more.</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <Waypoint onEnter={() => {this.showSection('projects')}} onLeave={() => {this.hideSection('contact')}}/>
-                            <div className='home-projects-content'>
-                                <div className='home-projects-content-1'>
-                                    <div className='home-projects-picture'>
-                                    <img className='home-projects-picture-3' src={waypoint} alt='example'/>
-                                    </div>
-                                    <div className='home-projects-description'>
-                                    <div className='home-projects-description-title'>InvitationHomes Demo Site</div>
-                                    <div className='home-projects-description-awarded'>{/*★*/}</div>
-                                    <div className='home-projects-description-from'>(DevMountain - Feburary 2018)</div>
-                                    <div className='home-projects-description-text'>This was a group project to demonstrate teamwork and collaboration. We planned using Adobe XD and Trello. This project was created built in two weeks using React, JavaScript, CSS, NodeJS, PostgreSQL, TransitionCss, Digital Ocean for hosting, Auth0 and more.</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='home-projects-content'>
-                                <div className='home-projects-content-1'>
-                                    <div className='home-projects-picture'>
-                                    <Link to="/react-minis" className='home-projects-picture'><img src={pict2} alt='example'/></Link>
-                                    </div>
-                                    <div className='home-projects-description'>
-                                    <div className='home-projects-description-title'>React Mini Projects</div>
-                                    <div className='home-projects-description-awarded'></div>
-                                    <div className='home-projects-description-from'>(DevMountain - January 2018)</div>
-                                    <div className='home-projects-description-text'>These are just a few small React exercises that I have created. Including: a calculator, a To-Do list, and a weather app. They are all mobile responsive and use various technologies.  </div>
-                                    </div>
-                                </div>
-                            </div>
+                          <div className='home-projects-content'>
+                              <div className='home-projects-content-1'>
+                                  <div className='home-projects-picture'>
+                                  <a href='http://classykitchenandbath.com/' rel="noopener noreferrer" target="_blank" className='home-projects-picture'><img src={ClassyClosets} alt='classykitchenandbath.com'/></a>
+                                  </div>
+                                  <div className='home-projects-description'>
+                                  <div className='home-projects-description-title'>Classy Closets</div>
+                                  <div className='home-projects-description-awarded'></div>
+                                  <div className='home-projects-description-from'>(Classy Closets - May 2018)</div>
+                                  <div className='home-projects-description-text'>Full Stack, responsive site built with ReactJS, NodeJS, Local API, and Express. Used to display samples of products and installations with descriptions and ability to email for a free consultation.</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <Waypoint onEnter={() => {this.showSection('projects')}} onLeave={() => {this.hideSection('contact')}}/>
+                          <div className='home-projects-content'>
+                              <div className='home-projects-content-1'>
+                                  <div className='home-projects-picture'>
+                                  <a href='http://myflash-study.com/#/' rel="noopener noreferrer" target="_blank" className='home-projects-picture'><img src='https://raw.githubusercontent.com/austinr47/main-personal-project/master/src/assets/account.png' alt='example'/></a>
+                                  </div>
+                                  <div className='home-projects-description'>
+                                  <div className='home-projects-description-title'>FlashStudy Web Application</div>
+                                  <div className='home-projects-description-awarded'>★ Awarded: "Best solution for a business" Personal Project</div>
+                                  <div className='home-projects-description-from'>(DevMountain - January 2018)</div>
+                                  <div className='home-projects-description-text'>Full-stack, responsive website built in two weeks using React with Redux, JavaScript, CSS, NodeJS, PostgreSQL, ChartJS, Digital Ocean for hosting, and more.</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div className='home-projects-content'>
+                              <div className='home-projects-content-1'>
+                                  <div className='home-projects-picture'>
+                                  <img className='home-projects-picture-3' src={waypoint} alt='example'/>
+                                  </div>
+                                  <div className='home-projects-description'>
+                                  <div className='home-projects-description-title'>InvitationHomes Demo Site</div>
+                                  <div className='home-projects-description-awarded'>{/*★*/}</div>
+                                  <div className='home-projects-description-from'>(DevMountain - Feburary 2018)</div>
+                                  <div className='home-projects-description-text'>This was a group project to demonstrate teamwork and collaboration. We planned using Adobe XD and Trello. This project was created built in two weeks using React, JavaScript, CSS, NodeJS, PostgreSQL, TransitionCss, Digital Ocean for hosting, Auth0 and more.</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div className='home-projects-content'>
+                              <div className='home-projects-content-1'>
+                                  <div className='home-projects-picture'>
+                                  <Link to="/react-minis" className='home-projects-picture'><img src={pict2} alt='example'/></Link>
+                                  </div>
+                                  <div className='home-projects-description'>
+                                  <div className='home-projects-description-title'>React Mini Projects</div>
+                                  <div className='home-projects-description-awarded'></div>
+                                  <div className='home-projects-description-from'>(DevMountain - January 2018)</div>
+                                  <div className='home-projects-description-text'>These are just a few small React exercises that I have created. Including: a calculator, a To-Do list, and a weather app. They are all mobile responsive and use various technologies.  </div>
+                                  </div>
+                              </div>
+                          </div>
                         </div>
                     </section>
                     <section className='about' ref={(section) => { this.Contact = section; }}>
